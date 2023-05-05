@@ -10,7 +10,7 @@ $ [main] ./gradlew run
 Note: Creating bean classes for 2 type elements
 
 > Task :run
-20:10:00.086 [main] INFO  i.m.context.env.DefaultEnvironment - Established active environments: [cli]
+20:22:30.016 [main] INFO  i.m.context.env.DefaultEnvironment - Established active environments: [cli]
 static-website                           License: Apache License 2.0
 presentations                            License: null
 micronaut-core                           License: Apache License 2.0
@@ -111,6 +111,4 @@ micronaut-upgrade                        License: Apache License 2.0
 module-dependency-graph                  License: Apache License 2.0
 micronaut-logging                        License: Apache License 2.0
 
-BUILD SUCCESSFUL in 11s
-4 actionable tasks: 2 executed, 2 up-to-date
 ``

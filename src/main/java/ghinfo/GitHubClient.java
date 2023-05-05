@@ -11,6 +11,6 @@ import java.util.Map;
 @Client(value="https://api.github.com/", path="/orgs/micronaut-projects")
 @Header(name = "User-Agent", value = "Micronaut Demo")
 public interface GitHubClient {
-    @Get("/repos?page={page}&per-page=100")
+    @Get("/repos?page={page}&per_page=100")
     List<Repository> repos(int page);
 }
